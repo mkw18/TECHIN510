@@ -11,21 +11,18 @@ col1, col2 = st.columns([0.3, 0.7])
 with col1:
     # st.markdown(
     #     """
+    # ![avatar](/Users/mkw/Documents/MSTI/TECHIN510/TECHIN510_lab1/IMG_0118.JPG)
     # <style>
-    # .profile-img img {
+    # img {
     #     width: 100%;
     #     border-radius: 50%;
     # }
     # </style>
 
-    # <div class="profile-img">
-
-    # ![avatar](/Users/mkw/Documents/MSTI/TECHIN510/TECHIN510_lab1/IMG_0118.JPG)
-    # </div>
     # """,
     #     unsafe_allow_html=True,
     # )
-    st.image('/Users/mkw/Documents/MSTI/TECHIN510/TECHIN510_lab1/IMG_0118.JPG')
+    st.image('IMG_0118.JPG')
 with col2:
     st.markdown(
         """
