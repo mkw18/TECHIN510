@@ -2,27 +2,30 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Kaiwen Men - University of Washington",
-    page_icon="👨🏻‍💻",
+    page_icon=":woman_student:",
     layout="centered",  # centered or wide
     initial_sidebar_state="auto",
 )
 
 col1, col2 = st.columns([0.3, 0.7])
 with col1:
-    # st.markdown(
-    #     """
-    # ![avatar](/Users/mkw/Documents/MSTI/TECHIN510/TECHIN510_lab1/IMG_0118.JPG)
-    # <style>
-    # img {
-    #     width: 100%;
-    #     border-radius: 50%;
-    # }
-    # </style>
+    st.markdown(
+        """
+    <style>
+    .profile-img img {
+        width: 100%;
+        border-radius: 50%;
+    }
+    </style>
 
-    # """,
-    #     unsafe_allow_html=True,
-    # )
-    st.image('IMG_0118.JPG')
+    <div class="profile-img">
+
+    ![avatar](https://raw.githubusercontent.com/mkw18/TECHIN510-Lab1/main/IMG_0118.JPG)
+    </div>
+    """,
+        unsafe_allow_html=True,
+    )
+    # st.image('IMG_0118.JPG')
 with col2:
     st.markdown(
         """
